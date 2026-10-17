@@ -1,3 +1,4 @@
+import { Contact } from './components/Contact'
 import { HomePage } from './components/HomePage'
 import { NavBar } from './components/NavBar'
 import { Resume } from './components/Resume'
@@ -9,6 +10,7 @@ export default function App() {
       <NavBar />
       <HomePage />
       <Resume />
+      <Contact />
     </div>
   )
 }
