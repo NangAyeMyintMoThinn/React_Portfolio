@@ -1,3 +1,5 @@
+import { Buttons } from "./Buttons";
+
 export function NavBar() {
     return (
         <nav className="sticky top-0 w-full h-16.25 flex justify-around items-center p-4.5 border-b-2 border-b-solid border-b-[#40BDFF] shadow-[0_2px_10px_rgba(0,0,0,0.15)] z-50 bg-white">
@@ -18,7 +20,7 @@ export function NavBar() {
                 <a className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium" href="#">About Me</a>
                 <a className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium" href="#">Contact</a>
 
-                <button className="w-25 h-8.75 text-[13px] bg-[#0D47A1] text-white rounded-[30px] p-2.5 cursor-pointer font-bold transition duration-100 hover:text-[#0D47A1] hover:bg-[#40BDFF]">Dark Mode</button>
+                <Buttons buttonName="Dark Mode" variant="darkMode" />
             </div>
 
         </nav>

@@ -1,10 +1,10 @@
 export function Skills() {
     return (
-        <div id="skills" className="flex flex-col gap-6">
+        <div id="skills">
 
-            <h2 className="text-[#0D47A1] font-bold text-[40px]">My Skills</h2>
+            <h2 className="text-[#0D47A1] font-bold text-[40px] mb-5">My Skills</h2>
 
-            <p className="text-[#555]">
+            <p className="text-[#555] mb-6.25">
                 Technologies and tools that I use to build web, desktop,
                 and database applications.
             </p>
@@ -47,8 +47,8 @@ export function Skills() {
                 </div>
 
                 <div className="bg-[#81d0fb] rounded-[15px] h-37.5 flex flex-col justify-center items-center transition duration-150 hover:-translate-y-2">
-                    <i className="fa-solid fa-code text-[50px] mb-3.75 text-[#68217A]"></i>
-                    <span className="font-semibold">C#</span>
+                    <i className="fa-solid fa-leaf text-[50px] mb-3.75 text-[#6DB33F]"></i>
+                    <span className="font-semibold">Spring Boot</span>
                 </div>
 
             </div>
