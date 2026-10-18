@@ -22,10 +22,10 @@ export function NavBar() {
             </div>
 
             <div className="flex items-center  text-[16px] gap-9 text-center">
-                <button onClick={() => scrollToSection("home")} className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium">Home</button>
-                <button onClick={() => scrollToSection("resume")} className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium">Resume</button>
-                <button onClick={() => scrollToSection("works")} className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium">Works</button>
-                <button onClick={() => scrollToSection("contact")} className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium">Contact</button>
+                <button onClick={() => scrollToSection("home")} className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium cursor-pointer">Home</button>
+                <button onClick={() => scrollToSection("resume")} className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium cursor-pointer">Resume</button>
+                <button onClick={() => scrollToSection("works")} className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium cursor-pointer">Works</button>
+                <button onClick={() => scrollToSection("contact")} className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium cursor-pointer">Contact</button>
                 <a
                     className="text-[#40BDFF] min-w-12 duration-100 transition hover:scale-[1.1] hover:font-medium"
                     href="/files/NangAyeMyintMoThinn.pdf"
