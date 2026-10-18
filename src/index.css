@@ -33,3 +33,6 @@ body{
 html {
     scroll-behavior: smooth;
 }
+.project-image-gallery {
+    scrollbar-width: thin;
+}
