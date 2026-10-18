@@ -2,7 +2,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export function HomePage() {
     return (
-        <div className="relative top-8 h-[80vh] flex flex-col items-center text-center">
+        <div className="w-[90%] h-[85vh] mt-7 m-auto flex flex-col text-center">
             <p className="text-[28px]">Hello, I'm</p>
             <h1 className="text-[45px] font-bold">Nang Aye Myint Mo Thinn</h1>
             <div className="relative w-82.5 h-82.5 my-1.25 mx-auto">
