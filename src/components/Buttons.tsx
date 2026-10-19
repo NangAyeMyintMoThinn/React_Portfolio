@@ -14,11 +14,11 @@ export function Buttons({ buttonName, onClick, isActive = false, variant = "defa
         default: `w-full p-4.5 mb-3.75 rounded-[10px] text-[18px]
             ${isActive
                 ? "bg-[var(--darkblue)] text-white"
-                : "bg-[#f5f5f5] text-[var(--text-color)] hover:bg-[var(--skyblue)]"
+                : "bg-[#f5f5f5] text-(--text-color)] hover:bg-[var(--skyblue)]"
             }`,
-        darkMode: "w-25 text-[13px] bg-[var(--darkblue)] text-white rounded-[30px] p-2.5 font-bold hover:text-[var(--darkblue)] hover:bg-[var(--skyblue)]",
+        darkMode: "w-25 text-[13px] bg-[var(--darkblue)] text-white rounded-[30px] p-2.5 font-bold hover:text-(--darkblue)] hover:bg-[var(--skyblue)]",
 
-        submit: "w-[180px] p-2.5 rounded-[30px] bg-[var(--darkblue)] text-white font-bold hover:text-[var(--darkblue)] hover:bg-[var(--skyblue)]"
+        submit: "w-[180px] p-2.5 rounded-[30px] bg-[var(--darkblue)] text-white font-bold hover:text-(--darkblue)] hover:bg-[var(--skyblue)]"
     }
     return (
         <button

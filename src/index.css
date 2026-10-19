@@ -26,6 +26,7 @@
 :root[data-theme="dark"] .theme-aware-button {
     color: var(--bg-color);
 }
+
 *{
     /* margin: 0;
     padding: 0;

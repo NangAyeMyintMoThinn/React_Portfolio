@@ -13,7 +13,7 @@ export function ProjectDescription({
     const descriptions = project?.descriptions ?? [];
 
     return (
-        <ul className="text-[15px] text-[var(--secondary-text)] list-disc leading-[1.7] pl-4.5">
+        <ul className="text-[15px] text-(--secondary-text)] list-disc leading-[1.7] pl-4.5">
             {descriptions.map((description, index) => (
                 <li key={index}>{description}</li>
             ))}

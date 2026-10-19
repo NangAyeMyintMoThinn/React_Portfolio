@@ -10,9 +10,9 @@ export function Resume() {
         <section id='resume' className='scroll-mt-28 w-[90%] h-[85vh] mt-25 m-auto flex gap-12.5'>
 
             <div className='w-[30%]'>
-                {/* <h1 className='text-[var(--darkblue)] text-[42px] relative top-5 font-bold'>Why Hire Me?</h1> */}
+                {/* <h1 className='text-(--darkblue)] text-[42px] relative top-5 font-bold'>Why Hire Me?</h1> */}
 
-                <h1 className='text-[var(--darkblue)] text-[42px] font-bold mb-5'>Why Hire Me?</h1>
+                <h1 className='text-(--darkblue) text-[42px] font-bold mb-5'>Why Hire Me?</h1>
                 <p className='text-[#555] leading-[1.8] mb-7.5'>
 
                     {/* <p className='text-[#555] leading-[1.8] relative top-7.5'> */}

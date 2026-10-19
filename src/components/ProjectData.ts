@@ -2,6 +2,7 @@ export type ProjectData = {
     projectName: string
     descriptions: string[]
     images?: string[]
+    projectLink?: string
 }
 
 export const ProjectData: ProjectData[] = [
@@ -17,7 +18,8 @@ export const ProjectData: ProjectData[] = [
             "/images/nateHome.png",
             "/images/Trending.png",
             "/images/Popular.png"
-        ]
+        ],
+        projectLink: "https://github.com/NangAyeMyintMoThinn/Cinema-inspiration-web-page"
     },
 
     {
@@ -39,7 +41,8 @@ export const ProjectData: ProjectData[] = [
             "/images/OrderSt.png",
             "/images/OrderList.png",
             "/images/CusList.png"
-        ]
+        ],
+        projectLink: "https://github.com/NangAyeMyintMoThinn/Pizza-Ordering-System"
     },
 
     {
@@ -76,7 +79,8 @@ export const ProjectData: ProjectData[] = [
             "/images/9table.png",
             "/images/10table.png",
             "/images/11record.png",    
-        ]
+        ],
+        projectLink:"https://github.com/NangAyeMyintMoThinn/ROMS.git"
     },
 
     {
@@ -95,7 +99,8 @@ export const ProjectData: ProjectData[] = [
             "/images/AboutUs1.png",
             "/images/Mission.png",
             "/images/Vision.png",    
-        ]
+        ],
+        projectLink: "https://github.com/NangAyeMyintMoThinn/disaster-preparedness-web-design.git"
     },
 
     {

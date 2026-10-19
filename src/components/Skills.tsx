@@ -2,7 +2,7 @@ export function Skills() {
     return (
         <div id="skills">
 
-            <h2 className="text-[var(--darkblue)] font-bold text-[40px] mb-5">My Skills</h2>
+            <h2 className="text-(--darkblue)] font-bold text-[40px] mb-5">My Skills</h2>
 
             <p className="text-[#555] mb-6.25">
                 Technologies and tools that I use to build web, desktop,

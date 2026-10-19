@@ -31,7 +31,7 @@ export function HomePage() {
                     <i className="fa-solid fa-envelope"></i>
                 </a>
 
-                <a className='text-[var(--text-color)] border-2 border-[var(--text-color)] hover:text-white hover:bg-[var(--text-color)] w-12.5 h-12.5 flex justify-center items-center rounded-full text-[20px] duration-150 transition hover:-translate-y-1.5 hover:scale-[1.1]' href="https://github.com/NangAyeMyintMoThinn" target="_blank">
+                <a className='text-(--text-color)] border-2 border-[var(--text-color)] hover:text-(--bg-color) hover:bg-[var(--text-color)] w-12.5 h-12.5 flex justify-center items-center rounded-full text-[20px] duration-150 transition hover:-translate-y-1.5 hover:scale-[1.1]' href="https://github.com/NangAyeMyintMoThinn" target="_blank">
                     <i className="fa-brands fa-github"></i>
                 </a>
 
