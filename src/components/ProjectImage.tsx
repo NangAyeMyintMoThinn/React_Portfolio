@@ -56,9 +56,9 @@ export function ProjectImage({ projectName }: ProjectImageProps) {
     return (
         <>
             {/* Project image gallery */}
-            <div className="project-image-gallery flex-1 max-w-[50%] flex gap-3 overflow-x-auto scroll-smooth p-1.25">
+            <div className="project-image-gallery flex-1 max-w-full max-[768px]:w-full flex gap-3 overflow-x-auto scroll-smooth p-1.25">
                 {images.map((image, index) => (
-                    <img src={image} key={image} onClick={() => openModal(index)} className="w-[320px] h-55 object-cover rounded-xl shrink-0 cursor-pointer"
+                    <img src={image} key={image} onClick={() => openModal(index)} className="h-[200px] w-[280px] object-cover max-[768px]:h-[180px] max-[768px]:w-[240px] max-[480px]:h-[150px] max-[480px]:w-[200px] object-cover rounded-xl shrink-0 cursor-pointer"
                     />
                 ))}
             </div>

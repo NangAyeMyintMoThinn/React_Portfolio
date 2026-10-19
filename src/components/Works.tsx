@@ -3,7 +3,7 @@ import { ProjectData } from "./ProjectData";
 
 export function Works() {
     return (
-        <section id="works" className="scroll-mt-28 w-[85%] mt-22.5 mb-20 mx-auto">
+        <section id="works" className="scroll-mt-28 mx-auto mt-22.5 mb-20 w-[85%] max-[992px]:w-[90%] max-[480px]:w-[95%]">
 
             {/* <!-- Project 1 --> */}
             <ProjectCard

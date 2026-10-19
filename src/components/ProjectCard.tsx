@@ -14,11 +14,13 @@ type ProjectCardProps = {
 export function ProjectCard({ reverse, pjNumber, pjName, technologies, role, pjLink }: ProjectCardProps) {
     if (reverse) {
         return (
-            <div className="flex flex-row-reverse items-center justify-between gap-12.5 mb-22.5">
+            <div className="flex flex-row-reverse items-center justify-between gap-12.5 mb-22.5
+    max-[992px]:gap-[30px]
+    max-[768px]:flex-col">
 
                 <div className="flex-1">
 
-                    <span className="text-[80px] font-extrabold leading-none [-webkit-text-stroke:2px_var(--skyblue)] text-transparent">{pjNumber}</span>
+                    <span className="text-[80px] font-extrabold leading-none max-[768px]:text-[60px] max-[480px]:text-[45px] [-webkit-text-stroke:2px_var(--skyblue)] text-transparent">{pjNumber}</span>
 
                     <div className="flex gap-3.75">
                         <h2 className="font-bold max-w-72.5 text-[22px] text-(--text-color) my-3.75">{pjName}</h2>
@@ -45,11 +47,13 @@ export function ProjectCard({ reverse, pjNumber, pjName, technologies, role, pjL
         )
     }
     return (
-        <div className="flex items-center justify-between gap-12.5 mb-22.5">
+        <div className="flex items-center justify-between gap-12.5 mb-22.5
+    max-[992px]:gap-[30px]
+    max-[768px]:flex-col">
 
             <div className="flex-1">
 
-                <span className="text-[80px] font-extrabold leading-none [-webkit-text-stroke:2px_var(--skyblue)] text-transparent">{pjNumber}</span>
+                <span className="text-[80px] font-extrabold leading-none max-[768px]:text-[60px] max-[480px]:text-[45px] [-webkit-text-stroke:2px_var(--skyblue)] text-transparent">{pjNumber}</span>
 
                 <div className="flex gap-3.75">
                     <h2 className="font-bold max-w-72.5 text-[22px] text-(--text-color) my-3.75">{pjName}</h2>
