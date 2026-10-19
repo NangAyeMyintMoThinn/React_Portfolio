@@ -1,3 +1,4 @@
+import { ThemeProvider } from './components/ThemeContext'
 import { Contact } from './components/Contact'
 import { HomePage } from './components/HomePage'
 import { NavBar } from './components/NavBar'
@@ -7,21 +8,13 @@ import './index.css'
 
 export default function App() {
   return (
-    <div>
+    <ThemeProvider>
       <NavBar />
-      <section className="scroll-mt-28" id='home'>
-        <HomePage />
-      </section>
-      <section className="scroll-mt-28" id='resume'>
-        <Resume />
-      </section>
-      <section className="scroll-mt-28" id='works'>
-        <Works />
-      </section>
-      <section className="scroll-mt-28" id='contact'>
-        <Contact />
-      </section>
-    </div>
+      <HomePage />
+      <Resume />
+      <Works />
+      <Contact />
+    </ThemeProvider>
   )
 }
 

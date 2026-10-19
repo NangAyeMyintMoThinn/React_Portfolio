@@ -17,7 +17,7 @@ export function FormField({ type = "text", id, placeholder, rows, required = fal
                 rows={rows}
                 placeholder={placeholder}
                 required={required}
-                className="w-full h-48 p-4 rounded-xl border-2 border-[#d6e8f7] text-[16px] outline-0 resize-none transition duration-150 focus:border-[#40BDFF] focus:shadow-[0_0_10px_#40BDFF33]"
+                className="w-full h-48 p-4 rounded-xl border-2 border-[#d6e8f7] placeholder:text-[var(--secondary-text)] text-[16px] outline-0 resize-none transition duration-150 focus:border-[var(--skyblue)] focus:shadow-[0_0_10px_var(--skyblue)33]"
             ></textarea>
         )
     }
@@ -28,7 +28,7 @@ export function FormField({ type = "text", id, placeholder, rows, required = fal
             name={id}
             placeholder={placeholder}
             required={required}
-            className="w-full h-14.25 p-4 rounded-xl border-2 border-[#d6e8f7] text-[16px] outline-0 transition duration-150 focus:border-[#40BDFF] focus:shadow-[0_0_10px_#40BDFF33]"
+            className="w-full h-14.25 p-4 rounded-xl border-2 border-[#d6e8f7] placeholder:text-[var(--secondary-text)] text-[16px] outline-0 transition duration-150 focus:border-[var(--skyblue)] focus:shadow-[0_0_10px_var(--skyblue)33]"
         />
     )
 }

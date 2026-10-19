@@ -2,12 +2,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export function HomePage() {
     return (
-        <div className="w-[90%] h-[85vh] mt-7 m-auto flex flex-col text-center">
+        <div id='home' className="scroll-mt-28 w-[90%] h-[85vh] mt-7 m-auto flex flex-col text-center">
             <p className="text-[28px]">Hello, I'm</p>
             <h1 className="text-[45px] font-bold">Nang Aye Myint Mo Thinn</h1>
             <div className="relative w-82.5 h-82.5 my-1.25 mx-auto">
                 {/* rotating ring */}
-                <div className="absolute inset-0 rounded-full border-[5px] border-transparent border-t-[#40BDFF] border-r-[#40BDFF] animate-[spin_4s_linear_infinite]"></div>
+                <div className="absolute inset-0 rounded-full border-[5px] border-transparent border-t-[var(--skyblue)] border-r-[var(--skyblue)] animate-[spin_4s_linear_infinite]"></div>
 
                 <div className="absolute inset-2.5 rounded-full overflow-hidden bg-white">
                     <img className="w-full h-full object-cover object-center rounded-full" src="/images/image_1.jpg" alt="Profile Photo" />
@@ -31,7 +31,7 @@ export function HomePage() {
                     <i className="fa-solid fa-envelope"></i>
                 </a>
 
-                <a className='text-[#222222] border-2 border-[#222222] hover:text-white hover:bg-[#222222] w-12.5 h-12.5 flex justify-center items-center rounded-full text-[20px] duration-150 transition hover:-translate-y-1.5 hover:scale-[1.1]' href="https://github.com/NangAyeMyintMoThinn" target="_blank">
+                <a className='text-[var(--text-color)] border-2 border-[var(--text-color)] hover:text-white hover:bg-[var(--text-color)] w-12.5 h-12.5 flex justify-center items-center rounded-full text-[20px] duration-150 transition hover:-translate-y-1.5 hover:scale-[1.1]' href="https://github.com/NangAyeMyintMoThinn" target="_blank">
                     <i className="fa-brands fa-github"></i>
                 </a>
 
