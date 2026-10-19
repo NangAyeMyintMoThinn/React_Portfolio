@@ -13,7 +13,7 @@ export function NavBar() {
         });
     };
     return (
-        <nav className="sticky top-0 w-full h-16.25 flex items-center justify-around max-[768px]:justify-between max-[768px]:px-5 max-[768px]:py-[15px] max-[390px]:px-4 max-[390px]:py-3 border-b-2 border-b-solid border-b-[var(--skyblue)] shadow-[0_2px_10px_rgba(0,0,0,0.15)] z-50 bg-(--bg-color)">
+        <nav className="sticky top-0 w-full h-16.25 flex items-center justify-around max-[768px]:justify-between max-[768px]:px-5 max-[768px]:py-3.75 max-[390px]:px-4 max-[390px]:py-3 border-b-2 border-b-solid border-b-(--skyblue) shadow-[0_2px_10px_rgba(0,0,0,0.15)] z-50 bg-(--bg-color)">
 
             <div
                 onClick={() => scrollToSection("home")}
@@ -42,7 +42,7 @@ export function NavBar() {
                         max-[768px]:transition-all max-[768px]:duration-300
                         ${menuOpen
                         ? "max-[768px]:translate-y-0 max-[768px]:opacity-100"
-                        : "max-[768px]:-translate-y-[150%] max-[768px]:opacity-0 max-[768px]:pointer-events-none"
+                        : "max-[768px]:translate-y-[-150%] max-[768px]:opacity-0 max-[768px]:pointer-events-none"
                     }`}>
                 <button onClick={() => scrollToSection("home")} className="text-(--skyblue) min-w-12 my-3 text-base max-[480px]:text-[15px] duration-100 transition hover:scale-[1.1] hover:font-medium cursor-pointer">Home</button>
                 <button onClick={() => scrollToSection("resume")} className="text-(--skyblue) min-w-12 my-3 text-base max-[480px]:text-[15px] duration-100 transition hover:scale-[1.1] hover:font-medium cursor-pointer">Resume</button>

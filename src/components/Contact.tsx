@@ -28,7 +28,7 @@ export function Contact() {
 
     };
     return (
-        <section id="contact" className="scroll-mt-28 w-[85%] my-22.5 gap[60px] max-[992px]:gap-10 max-[768px]:w-[90%] max-[768px]:mt-[100px] max-[768px]:flex-col max-[768px]:gap-[50px] max-[480px]:w-[95%] max-[480px]:mt-[90px] mt-22.5 m-auto flex justify-between gap-15">
+        <section id="contact" className="scroll-mt-28 w-[85%] my-22.5 gap[60px] max-[992px]:gap-10 max-[768px]:w-[90%] max-[768px]:mt-25 max-[768px]:flex-col max-[768px]:gap-12.5 max-[480px]:w-[95%] max-[480px]:mt-22.5 mt-22.5 m-auto flex justify-between gap-15">
             {/* <!-- Left Side --> */}
             <div className="flex-2 max-[768px]:w-full">
 

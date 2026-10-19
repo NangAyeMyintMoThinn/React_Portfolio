@@ -2,7 +2,7 @@ export function Skills() {
     return (
         <div id="skills">
 
-            <h2 className="text-(--darkblue)] max-[768px]:text-[30px] max-[768px]:text-center max-[480px]:text-2xl max-[320px]:text-[22px] font-bold text-[40px] mb-5">My Skills</h2>
+            <h2 className="text-(--darkblue) max-[768px]:text-[30px] max-[768px]:text-center max-[480px]:text-2xl max-[320px]:text-[22px] font-bold text-[40px] mb-5">My Skills</h2>
 
             <p className="text-[#555] mb-6.25">
                 Technologies and tools that I use to build web, desktop,

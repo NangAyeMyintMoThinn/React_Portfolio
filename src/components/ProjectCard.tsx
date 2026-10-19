@@ -15,7 +15,7 @@ export function ProjectCard({ reverse, pjNumber, pjName, technologies, role, pjL
     if (reverse) {
         return (
             <div className="flex flex-row-reverse items-center justify-between gap-12.5 mb-22.5
-                            max-[992px]:gap-[30px]
+                            max-[992px]:gap-7.5
                             max-[768px]:flex-col">
 
                 <div className="flex-1">
@@ -25,7 +25,7 @@ export function ProjectCard({ reverse, pjNumber, pjName, technologies, role, pjL
                     <div className="flex gap-3.75">
                         <h2 className="font-bold max-w-72.5 text-[22px] text-(--text-color) my-3.75">{pjName}</h2>
 
-                        <a className="w-11.25 h-11.25 flex items-center justify-center rounded-[50%] bg-(--bg-color) text-(--text-color) shadow-[0_5px_15px_var(--shadow-color)] text-2xl transition duration-150 hover:-translate-y-1.5 hover:rotate-10 hover:bg-[var(--skyblue)] hover:text-white"
+                        <a className="w-11.25 h-11.25 flex items-center justify-center rounded-[50%] bg-(--bg-color) text-(--text-color) shadow-[0_5px_15px_var(--shadow-color)] text-2xl transition duration-150 hover:-translate-y-1.5 hover:rotate-10 hover:bg-(--skyblue) hover:text-white"
                             href={pjLink} target="_blank">
                             <i className="fa-brands fa-github"></i>
                         </a>
@@ -48,7 +48,7 @@ export function ProjectCard({ reverse, pjNumber, pjName, technologies, role, pjL
     }
     return (
         <div className="flex items-center justify-between gap-12.5 mb-22.5
-                        max-[992px]:gap-[30px]
+                        max-[992px]:gap-7.5
                         max-[768px]:flex-col">
 
             <div className="flex-1">
@@ -58,7 +58,7 @@ export function ProjectCard({ reverse, pjNumber, pjName, technologies, role, pjL
                 <div className="flex gap-3.75">
                     <h2 className="font-bold max-w-72.5 text-[22px] text-(--text-color) my-3.75">{pjName}</h2>
 
-                    <a className="w-11.25 h-11.25 flex items-center justify-center rounded-[50%] bg-(--bg-color) text-(--text-color) shadow-[0_5px_15px_var(--shadow-color)] text-2xl transition duration-150 hover:-translate-y-1.5 hover:rotate-10 hover:bg-[var(--skyblue)] hover:text-white"
+                    <a className="w-11.25 h-11.25 flex items-center justify-center rounded-[50%] bg-(--bg-color) text-(--text-color) shadow-[0_5px_15px_var(--shadow-color)] text-2xl transition duration-150 hover:-translate-y-1.5 hover:rotate-10 hover:bg-(--skyblue) hover:text-white"
                         href={pjLink} target="_blank">
                         <i className="fa-brands fa-github"></i>
                     </a>
