@@ -18,7 +18,7 @@ export function Buttons({ buttonName, onClick, isActive = false, variant = "defa
             }`,
         darkMode: "w-25 text-[13px] bg-[var(--darkblue)] text-white rounded-[30px] p-2.5 font-bold hover:text-(--darkblue)] hover:bg-[var(--skyblue)]",
 
-        submit: "max-[768px]:w-full max-[480px]:p-3 max-[480px]:text-sm rounded-[30px] bg-[var(--darkblue)] text-white font-bold hover:text-(--darkblue)] hover:bg-[var(--skyblue)]"
+        submit: "w-[180px] p-[14px] max-[768px]:w-full max-[480px]:p-3 max-[480px]:text-sm rounded-[30px] bg-[var(--darkblue)] text-white font-bold hover:text-(--darkblue)] hover:bg-[var(--skyblue)]"
     }
     return (
         <button

@@ -44,15 +44,17 @@ export function Works() {
             />
 
             {/* <!-- Project 5 --> */}
-            <div className="flex items-center justify-between gap-13">
+            <div className="flex items-center justify-between gap-12.5 mb-22.5
+                        max-[992px]:gap-7.5
+                        max-[768px]:flex-col">
                 <div className="flex-1">
 
-                    <span className="text-[80px] font-extrabold leading-none [-webkit-text-stroke:2px_var(--skyblue)] text-transparent">05</span>
+                    <span className="text-[80px] font-extrabold leading-none max-[768px]:text-[60px] max-[480px]:text-[45px] [-webkit-text-stroke:2px_var(--skyblue)] text-transparent">05</span>
 
                     <div className="flex gap-3.75">
                         <h2 className="font-bold max-w-72.5 text-[22px] text-(--text-color) my-3.75">Smart Home Automation Prototype</h2>
 
-                        <a className="w-11.25 h-11.25 flex items-center justify-center rounded-[50%] bg-(--bg-color) text-(--text-color) shadow-[0_5px_15px_var(--shadow-color)] text-2xl transition duration-150 hover:-translate-y-1.5 hover:rotate-10 hover:bg-[var(--skyblue)] hover:text-white" href="https://github.com/NangAyeMyintMoThinn/SmartHomePrototype.git" target="_blank">
+                        <a className="w-11.25 h-11.25 flex items-center justify-center rounded-[50%] bg-(--bg-color) text-(--text-color) shadow-[0_5px_15px_var(--shadow-color)] text-2xl transition duration-150 hover:-translate-y-1.5 hover:rotate-10 hover:bg-(--skyblue) hover:text-white" href="https://github.com/NangAyeMyintMoThinn/SmartHomePrototype.git" target="_blank">
                             <i className="fa-brands fa-github"></i>
                         </a>
                     </div>
@@ -66,7 +68,7 @@ export function Works() {
                         <li>Designed and managed the SQLite database structure.</li>
                     </ul>
 
-                    <div className="w-full h-px bg-[var(--divider-color)] my-5 mx-auto"></div>
+                    <div className="w-full h-px bg-(--divider-color) my-5 mx-auto"></div>
 
                 </div>
 

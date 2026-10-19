@@ -2,7 +2,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export function HomePage() {
     return (
-        <div id='home' className="scroll-mt-28 p-5 max-[768px]:mt-[90px] max-[480px]:mt-20 max-[480px]:p-[15px] m-auto flex flex-col text-center">
+        <div id='home' className="scroll-mt-28 mt-10 p-5 max-[768px]:mt-[90px] max-[480px]:mt-20 max-[480px]:p-[15px] m-auto flex flex-col justify-center text-center">
             <p className="text-[28px]">Hello, I'm</p>
             <h1 className="text-[45px] max-[768px]:text-[32px] max-[768px]:leading-[1.3] max-[480px]:text-[26px] max-[480px]:leading-[1.4] max-[320px]:text-[22px] font-bold">Nang Aye Myint Mo Thinn</h1>
             <div className="relative w-[280px] h-[280px] max-[768px]:w-[240px] max-[768px]:h-[240px] max-[480px]:w-[180px] max-[480px]:h-[180px] max-[320px]:w-[160px] max-[320px]:h-[160px] mx-auto">

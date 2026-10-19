@@ -15,8 +15,8 @@ export function ProjectCard({ reverse, pjNumber, pjName, technologies, role, pjL
     if (reverse) {
         return (
             <div className="flex flex-row-reverse items-center justify-between gap-12.5 mb-22.5
-    max-[992px]:gap-[30px]
-    max-[768px]:flex-col">
+                            max-[992px]:gap-[30px]
+                            max-[768px]:flex-col">
 
                 <div className="flex-1">
 
@@ -48,8 +48,8 @@ export function ProjectCard({ reverse, pjNumber, pjName, technologies, role, pjL
     }
     return (
         <div className="flex items-center justify-between gap-12.5 mb-22.5
-    max-[992px]:gap-[30px]
-    max-[768px]:flex-col">
+                        max-[992px]:gap-[30px]
+                        max-[768px]:flex-col">
 
             <div className="flex-1">
 

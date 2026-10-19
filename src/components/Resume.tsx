@@ -7,9 +7,9 @@ import { Skills } from './Skills'
 export function Resume() {
     const [activeSection, setActiveSection] = useState("Skills")
     return (
-        <section id='resume' className='scroll-mt-28 mt-20 mx-auto flex w-[95%] gap-[30px] max-[768px]:w-[90%] max-[768px]:mt-[100px] max-[768px]:flex-col max-[768px]:gap-10 max-[480px]:w-[95%] max-[480px]:mt-[90px]'>
+        <section id='resume' className='scroll-mt-28 mt-25 mx-auto flex w-[90%] gap-12.5 max-[768px]:w-[90%] max-[768px]:mt-25 max-[768px]:flex-col max-[768px]:gap-10 max-[480px]:w-[95%] max-[480px]:mt-22.5'>
 
-            <div className='w-[35%] max-[768px]:w-full max-[768px]:text-center'>
+            <div className='w-[30%] max-[768px]:w-full max-[768px]:text-center'>
                 {/* <h1 className='text-(--darkblue)] text-[42px] relative top-5 font-bold'>Why Hire Me?</h1> */}
 
                 <h1 className='text-(--darkblue) text-[42px] max-[768px]:text-[30px] max-[480px]:text-2xl max-[320px]:text-[22px] font-bold mb-5'>Why Hire Me?</h1>
@@ -26,7 +26,7 @@ export function Resume() {
                 </div>
             </div>
 
-            <div className='w-[65%] max-[768px]:w-full'>
+            <div className='w-[70%] max-[768px]:w-full'>
 
                 {activeSection === "Skills" && <Skills />}
                 {activeSection === "Education" && <Education />}

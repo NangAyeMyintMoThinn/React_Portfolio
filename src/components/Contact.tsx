@@ -28,11 +28,11 @@ export function Contact() {
 
     };
     return (
-        <section id="contact" className="scroll-mt-28  max-[992px]:gap-10 max-[768px]:w-[90%] max-[768px]:mt-[100px] max-[768px]:flex-col max-[768px]:gap-[50px] max-[480px]:w-[95%] max-[480px]:mt-[90px] mt-22.5 m-auto flex justify-between gap-15">
+        <section id="contact" className="scroll-mt-28 w-[85%] my-22.5 gap[60px] max-[992px]:gap-10 max-[768px]:w-[90%] max-[768px]:mt-[100px] max-[768px]:flex-col max-[768px]:gap-[50px] max-[480px]:w-[95%] max-[480px]:mt-[90px] mt-22.5 m-auto flex justify-between gap-15">
             {/* <!-- Left Side --> */}
             <div className="flex-2 max-[768px]:w-full">
 
-                <h1 className="max-[992px]:text-[32px] max-[768px]:text-[30px] max-[768px]:text-center max-[480px]:text-2xl text-(--darkblue) mb-3.75 font-bold">Get In Touch</h1>
+                <h1 className="text-[40px] mb-3.75 max-[992px]:text-[32px] max-[768px]:text-[30px] max-[768px]:text-center max-[480px]:text-2xl text-(--darkblue) font-bold">Get In Touch</h1>
 
                 <form id="contactForm" onSubmit={handleSubmit} className="flex flex-col gap-5">
 
@@ -49,7 +49,7 @@ export function Contact() {
             {/* <!-- Right Side --> */}
             <div className="flex-1 max-[768px]:w-full">
 
-                <h1 className="max-[992px]:text-[32px] max-[768px]:text-[30px] max-[768px]:text-center max-[480px]:text-2xl text-(--darkblue) mb-8.75 font-bold">My Contact Details</h1>
+                <h1 className="text-[40px] mb-8.75 max-[992px]:text-[32px] max-[768px]:text-[30px] max-[768px]:text-center max-[480px]:text-2xl text-(--darkblue) font-bold">My Contact Details</h1>
 
                 <div className="flex gap-4.5 items-center mb-7.5">
                     <i className="text-[28px] w-12.5 fa-solid fa-envelope text-[#EA4335]"></i>
