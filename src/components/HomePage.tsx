@@ -2,7 +2,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export function HomePage() {
     return (
-        <div id='home' className="scroll-mt-28 mt-10 p-5 max-[768px]:mt-22.5 max-[480px]:mt-20 max-[480px]:p-3.75 m-auto flex flex-col justify-center text-center">
+        <div id='home' className="scroll-mt-28 h-[90vh] p-5 max-[768px]:mt-22.5 max-[480px]:mt-20 max-[480px]:p-3.75 m-auto flex flex-col justify-around text-center">
             <p className="text-[28px]">Hello, I'm</p>
             <h1 className="text-[45px] max-[768px]:text-[32px] max-[768px]:leading-[1.3] max-[480px]:text-[26px] max-[480px]:leading-[1.4] max-[320px]:text-[22px] font-bold">Nang Aye Myint Mo Thinn</h1>
             <div className="relative w-70 h-70 max-[768px]:w-60 max-[768px]:h-60 max-[480px]:w-45 max-[480px]:h-45 max-[320px]:w-40 max-[320px]:h-40 mx-auto">
@@ -31,7 +31,7 @@ export function HomePage() {
                     <i className="fa-solid fa-envelope"></i>
                 </a>
 
-                <a className='text-(--text-color)] max-[768px]:h-11.25 max-[768px]:w-11.25 max-[768px]:text-lg max-[480px]:h-10 max-[480px]:w-10 max-[480px]:text-base max-[320px]:h-9 max-[320px]:w-9 max-[320px]:text-sm border-2 border-[var(--text-color)] hover:text-(--bg-color) hover:bg-[var(--text-color)] w-12.5 h-12.5 flex justify-center items-center rounded-full text-[20px] duration-150 transition hover:-translate-y-1.5 hover:scale-[1.1]' href="https://github.com/NangAyeMyintMoThinn" target="_blank">
+                <a className='text-(--text-color)] max-[768px]:h-11.25 max-[768px]:w-11.25 max-[768px]:text-lg max-[480px]:h-10 max-[480px]:w-10 max-[480px]:text-base max-[320px]:h-9 max-[320px]:w-9 max-[320px]:text-sm border-2 border-(--text-color) hover:text-(--bg-color) hover:bg-(--text-color) w-12.5 h-12.5 flex justify-center items-center rounded-full text-[20px] duration-150 transition hover:-translate-y-1.5 hover:scale-[1.1]' href="https://github.com/NangAyeMyintMoThinn" target="_blank">
                     <i className="fa-brands fa-github"></i>
                 </a>
 
